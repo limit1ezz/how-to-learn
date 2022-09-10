@@ -1,0 +1,9 @@
+.cards {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  max-width: 920px;
+}
