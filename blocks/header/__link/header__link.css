@@ -1,0 +1,17 @@
+.header__link {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.header__link::after {
+  content: "→";
+}
+
+.header__link:hover {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
